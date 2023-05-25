@@ -1,10 +1,9 @@
-// recupero la parola inserita dall'utente
-const parola = document.getElementById('parola').value;
-
-console.log(parola);
 // collego il confronto al click del pulsante
 let button = document.getElementById('search')
 button.addEventListener('click', function(){
+    // recupero la parola inserita dall'utente
+    const parola = document.getElementById('parola').value;
+    console.log(parola);
     // creo la funzione per confrontare le due parole
     function palindroma (controllo) {
         let lettere = parola.split('');
