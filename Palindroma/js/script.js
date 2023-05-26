@@ -8,7 +8,7 @@ button.addEventListener('click', function(){
     
     // creo la funzione per confrontare le due parole
     function palindroma (controllo) {
-        let lettere = parola.split('');
+        let lettere = controllo.split('');
         console.log(lettere);
     
         let lettereReverse = lettere.reverse('');
