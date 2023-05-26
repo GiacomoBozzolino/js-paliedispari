@@ -32,7 +32,7 @@ button.addEventListener('click', function(){
         console.log ('La parola è un palindromo')
         document.getElementById('messaggio').innerText= 'La parola è un palindromo'
     } else {
-        console.log ('La parola è un palindromo')
+        console.log ('La parola non è un palindromo')
         document.getElementById('messaggio').innerText= 'La parola non è un palindromo'
     }
 })

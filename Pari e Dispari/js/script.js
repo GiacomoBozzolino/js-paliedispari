@@ -7,8 +7,10 @@ button.addEventListener('click', function(){
     console.log(number);
 // aggiungo un controllo che l'utente inserisca  solamente un numero da 1 a 5
     while(isNaN(number) || ( number > 5)) {
-        number= document.getElementById ('allert').innerText = 'Per favore inserisci un numero da 1 a 5'
+        document.getElementById ('allert').innerText = 'Per favore inserisci un numero da 1 a 5'
     }
+
+   
 // creo la funzione per generare randomicamente un numero
     function randomNumber (min, max) {
        return Math.floor(Math.random() * ( max-min +1) + min);  
